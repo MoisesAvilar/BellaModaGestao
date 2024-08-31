@@ -28,6 +28,8 @@ DJANGO_APPS = [
 ]
 
 PROJECT_APPS = [
+    'rest_framework.apps.RestFrameworkConfig',
+    'rest_framework_simplejwt',
     'authentication.apps.AuthenticationConfig',
     'product.apps.ProductConfig',
     'stock.apps.StockConfig',
