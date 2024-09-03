@@ -32,6 +32,7 @@ PROJECT_APPS = [
     'rest_framework_simplejwt',
     'authentication.apps.AuthenticationConfig',
     'product.apps.ProductConfig',
+    'sale.apps.SaleConfig',
     'stock.apps.StockConfig',
 ]
 

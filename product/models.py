@@ -35,4 +35,4 @@ class Product(models.Model):
         super().save(*args, **kwargs)
 
     def __str__(self):
-        return self.description.title()
+        return f"{self.description.title()} {self.note.title()}"
